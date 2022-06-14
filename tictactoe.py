@@ -46,7 +46,7 @@ def check():
                   print("Run Time: " + str( time.time() - start ))
                   exit()
 
-            while game[0][0]!='_' and game[0][1]!='_'and game[0][2]!='_' and game[1][0]!='_' and game[1][1]!='_'and game[1][2]!='_' and game[2][0]!='_' and game[2][1]!='_'and game[2][2]!='_' :
+      if game[0][0]!='_' and game[0][1]!='_'and game[0][2]!='_' and game[1][0]!='_' and game[1][1]!='_'and game[1][2]!='_' and game[2][0]!='_' and game[2][1]!='_'and game[2][2]!='_' :
                   print('draw') 
                   print("Run Time: " + str( time.time() - start ))
                   exit()    
